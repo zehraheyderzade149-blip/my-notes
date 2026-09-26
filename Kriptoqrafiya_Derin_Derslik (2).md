@@ -29,11 +29,13 @@ Yəni ABŞ-ın bu qurumunun (əvvəlki NBS, indiki NIST) yaratdığı açıq mü
 
 ### 1.1. Kriptosistem formallıqlaşdırması
 
-Müasir kriptoqrafiya (Shannon, 1949-cu ildə "Communication Theory of Secrecy Systems" əsərilə) şifrəni formallılaşdırır:
+1949-cu ilə qədər şifrələmə üsulları daha çox təcrübəyə və intuisiyaya əsaslanırdı. Claude Shannon un "Rabitə sistemlərində məxfilik nəzəriyyəsi" əsəri kriptoqrafiyanı pərakəndə sənətdən çıxarıb dəqiq elmi və riyazi sistemə çevirdi.
 
-Bir **şifrə (cipher)** üç alqoritmdən ibarətdir:
+Kriptosistemin Üç Əsas Alqoritmi
+Hər hansı bir müasir şifrələmə sistemi (kriptosistem) üç əsas funksiyadan və ya alqoritmdən ibarətdir:
 
-- **Gen(1ⁿ)** → açar `k` yaradır (təsadüfi, n-bit)
+- **Gen($1^n$) - Açar yaratma (Key Generation):
+Sistem təhlükəsizliyi təmin etmək üçün təsadüfi bir açar ($k$) yaradır. Burada $n$-bit açarın uzunluğunu göstərir (məsələn, 128 bit və ya 256 bitlik açarlar). Açar nə qədər uzun olarsa, sistem bir o qədər güclü olar.
 - **Enc(k, m)** → şifrəli mətn `c`
 - **Dec(k, c)** → açıq mətn `m`
 
