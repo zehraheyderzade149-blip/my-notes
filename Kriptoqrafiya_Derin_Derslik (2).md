@@ -42,6 +42,8 @@ Orijinal mətni ($m$ - message) və yaratdığımız açarı ($k$) götürüb on
 Şifrələnmiş mətni ($c$) və həmin gizli açarı ($k$) istifadə edərək şifrəni açır və ilkin orijinal mətni ($m$) yenidən əldə edir.
 
 **Düzgünlük Tələbi (Correctness)**
+$\text{Dec}(k, \text{Enc}(k, m)) = m$
+
 
 **Təhlükəsizlik tərifi (Kerckhoffs şərti):** Hücumçu alqoritmi bilir, yalnız açarı bilmir. Shannon bunu "düşmən sistemi tam analiz edə bilər" prinsipi ilə əsaslandırdı.
 
