@@ -2,8 +2,6 @@
 
 > ⚠️ **Etik xəbərdarlıq:** Bu sənəddəki bütün alət və hücum üsulları YALNIZ öz laboratoriya mühitində və ya sənə yazılı icazə verilmiş sistemlərdə istifadə edilməlidir. İcazəsiz sistemə hücum Azərbaycan Cinayət Məcəlləsinin 272-ci maddəsinə görə cinayətdir.
 
-**Bu sənəd nədir?** Əvvəlki versiya çox qəliz, dağınıq və bəzi yerlərdə hətta qırıq (natamam cümlə/başlıq) idi. Burada eyni məzmun saxlanılıb, amma hər mövzu əvvəlcə **sadə dillə, real həyat analogiyası ilə** izah olunur, sonra düstur/kod gəlir. Elmi dəqiqlik itirilməyib — sadəcə "əvvəl anla, sonra əzbərlə" məntiqi ilə yazılıb.
-
 ---
 
 # HİSSƏ I — TƏMƏL ANLAYIŞLAR VƏ KLASSİK ŞİFRƏLƏR
