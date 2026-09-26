@@ -14,6 +14,19 @@
 
 - 1973: NBS (indiki NIST) açıq müsabiqə1. Kriptoqrafiyanın riyazi təməli
 
+NBS və NIST: NBS (National Bureau of Standards) ABŞ-ın Milli Standartlar Bürosunun keçmiş adıdır. 1988-ci ildən etibarən bu qurum NIST (National Institute of Standards and Technology - Milli Standartlar və Texnologiya İnstitutu) adlandırılmağa başlanıb.
+
+Açıq Müsabiqə: NIST tarix boyu dövlət və ya qlobal miqyasda istifadə olunacaq şifrələmə standartlarını (məsələn, məşhur DES və AES alqoritmlərini) qapalı şəkildə deyil, bütün dünya alimləri və kriptoqrafları üçün açıq müsabiqələr elan etməklə seçir. Dünyanın hər yerindən mütəxəssislər yeni şifrələmə üsulları təklif edir, digər alimlər isə onları sındırmağa və ya zəif cəhətlərini tapmağa çalışırlar.
+
+2. "Kriptoqrafiyanın riyazi təməli" nə deməkdir?
+Əvvəllər şifrələmə metodları daha çox gizli və praktiki üsullara əsaslanırdısa, NBS/NIST-in başlatdığı bu açıq elmi proses kriptoqrafiyanı sırf hərbi və ya qapalı sahə olmaqdan çıxarıb ciddi riyazi təməllər üzərində qurdu.
+
+Təklif olunan hər bir alqoritm sərt riyazi qanunlara (məsələn, saylar nəzəriyyəsi, böyük ədədlərin vuruqlara ayrılması, cəbri strukturlar) əsaslanmalıdır.
+
+Açıq müsabiqələr sayəsində bu riyazi modellər qlobal miqyasda yoxlanılıb təsdiqlənmişdir.
+
+Yəni ABŞ-ın bu qurumunun (əvvəlki NBS, indiki NIST) yaratdığı açıq müsabiqə ənənəsi müasir kriptoqrafiyanın elmi, güclü və etibarlı riyazi təməllər üzərində qurulmasının əsasını qoymuşdur.
+
 ### 1.1. Kriptosistem formallıqlaşdırması
 
 Müasir kriptoqrafiya (Shannon, 1949-cu ildə "Communication Theory of Secrecy Systems" əsərilə) şifrəni formallılaşdırır:
