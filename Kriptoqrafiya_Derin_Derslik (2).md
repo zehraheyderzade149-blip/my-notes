@@ -18,7 +18,7 @@ NBS və NIST: NBS (National Bureau of Standards) ABŞ-ın Milli Standartlar Bür
 
 Açıq Müsabiqə: NIST tarix boyu dövlət və ya qlobal miqyasda istifadə olunacaq şifrələmə standartlarını (məsələn, məşhur DES və AES alqoritmlərini) qapalı şəkildə deyil, bütün dünya alimləri və kriptoqrafları üçün açıq müsabiqələr elan etməklə seçir. Dünyanın hər yerindən mütəxəssislər yeni şifrələmə üsulları təklif edir, digər alimlər isə onları sındırmağa və ya zəif cəhətlərini tapmağa çalışırlar.
 
-2. "Kriptoqrafiyanın riyazi təməli" nə deməkdir?
+"Kriptoqrafiyanın riyazi təməli" nə deməkdir?
 Əvvəllər şifrələmə metodları daha çox gizli və praktiki üsullara əsaslanırdısa, NBS/NIST-in başlatdığı bu açıq elmi proses kriptoqrafiyanı sırf hərbi və ya qapalı sahə olmaqdan çıxarıb ciddi riyazi təməllər üzərində qurdu.
 
 Təklif olunan hər bir alqoritm sərt riyazi qanunlara (məsələn, saylar nəzəriyyəsi, böyük ədədlərin vuruqlara ayrılması, cəbri strukturlar) əsaslanmalıdır.
