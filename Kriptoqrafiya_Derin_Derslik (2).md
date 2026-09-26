@@ -34,12 +34,14 @@ Yəni ABŞ-ın bu qurumunun (əvvəlki NBS, indiki NIST) yaratdığı açıq mü
 Kriptosistemin Üç Əsas Alqoritmi
 Hər hansı bir müasir şifrələmə sistemi (kriptosistem) üç əsas funksiyadan və ya alqoritmdən ibarətdir:
 
-- **Gen($1^n$) - Açar yaratma (Key Generation):
+- **Gen($1^n$)** - Açar yaratma (Key Generation):
 Sistem təhlükəsizliyi təmin etmək üçün təsadüfi bir açar ($k$) yaradır. Burada $n$-bit açarın uzunluğunu göstərir (məsələn, 128 bit və ya 256 bitlik açarlar). Açar nə qədər uzun olarsa, sistem bir o qədər güclü olar.
-- **Enc(k, m)** → şifrəli mətn `c`
-- **Dec(k, c)** → açıq mətn `m`
+- **Enc($k, m$)** - Şifrələmə (Encryption):
+Orijinal mətni ($m$ - message) və yaratdığımız açarı ($k$) götürüb onları bir-birinə qarışdırır və ortaya oxunmaz şifrəli mətn ($c$ - ciphertext) çıxarır.
+- **Dec($k, c$)** - Deşifrələmə (Decryption):
+Şifrələnmiş mətni ($c$) və həmin gizli açarı ($k$) istifadə edərək şifrəni açır və ilkin orijinal mətni ($m$) yenidən əldə edir.
 
-**Düzgünlük tələbi:** `Dec(k, Enc(k, m)) = m` hər m və k üçün ödənməlidir.
+** Düzgünlük Tələbi (Correctness)**$\text{Dec}(k, \text{Enc}(k, m)) = m$Bu düstur sadə bir həqiqəti deyir: Şifrələnmiş mətn yenidən açıldıqda mütləq əsl orijinal mətn alınmalıdır.Əgər sən məktubu şifrələyib (Enc) sonra açanda (Dec) fərqli bir şey alırsansa, deməli kriptosistem düzgün işləmir və ya xətalıdır. Bu şərt həm həm $m$ (mətn), həm də $k$ (açar) üçün həmişə ödənməlidir.
 
 **Təhlükəsizlik tərifi (Kerckhoffs şərti):** Hücumçu alqoritmi bilir, yalnız açarı bilmir. Shannon bunu "düşmən sistemi tam analiz edə bilər" prinsipi ilə əsaslandırdı.
 
